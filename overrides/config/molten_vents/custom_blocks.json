@@ -1,5 +1,10 @@
 {"values":[
-    "asurine","veridium","crimsite","ochrum","scorchia","scoria",
-    "asurine_unlocked","veridium_unlocked","crimsite_unlocked","ochrum_unlocked","lignite_unlocked","galena_unlocked","bauxite_unlocked",
-    "lignite","galena","bauxite"
+    "asurine","asurine_unlocked",
+    "bauxite","bauxite_unlocked",
+    "crimsite","crimsite_unlocked",
+    "galena","galena_unlocked",
+    "lignite","lignite_unlocked",
+    "ochrum","ochrum_unlocked",
+    "veridium","veridium_unlocked",
+    "scorchia","scoria"
 ]}

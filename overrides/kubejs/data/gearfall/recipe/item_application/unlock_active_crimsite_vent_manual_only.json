@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "molten_vents:active_molten_crimsite"
+    },
+    {
+      "item": "kubejs:lava_key"
+    }
+  ],
+  "results": [
+    {
+      "id": "molten_vents:active_molten_crimsite_unlocked"
+    }
+  ]
+}
