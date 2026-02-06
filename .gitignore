@@ -1,5 +1,6 @@
 1.21.1/**
 config/**
+crash-reports/**
 datapacks/**
 defaultconfigs/**
 downloads/**
@@ -13,6 +14,7 @@ saves/**
 schematics/**
 server-resource-packs/**
 shaderpacks/**
+.vscode/**
 /.curseclient
 /command_history.txt
 /minecraftinstance.json
