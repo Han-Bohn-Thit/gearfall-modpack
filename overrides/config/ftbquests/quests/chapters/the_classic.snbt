@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_classic"
+	group: "020EA5DF267EC951"
+	icon: {
+		id: "minecraft:oak_log"
+	}
+	id: "409FD799BC168554"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "75774AD871C1991A"
+		tasks: [{
+			id: "5212EAF80B8469BA"
+			item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+			type: "item"
+		}]
+		x: -2.5d
+		y: -1.5d
+	}]
+}

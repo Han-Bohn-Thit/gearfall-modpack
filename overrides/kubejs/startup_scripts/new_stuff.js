@@ -18,7 +18,6 @@ StartupEvents.registry('item', event => {
       .tooltip(keys[i][2])
       .rarity('epic')
   }
-
 })
 
 //Impure Blocks
