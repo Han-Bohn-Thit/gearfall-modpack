@@ -4,8 +4,6 @@ crash-reports/**
 datapacks/**
 defaultconfigs/**
 downloads/**
-kiwipacks/**
-kubejs/**
 local/**
 logs/**
 mods/**
@@ -23,3 +21,8 @@ shaderpacks/**
 /usernamecache.json
 /emi.json
 .probe
+/kubejs/README.txt
+/kubejs/client_scripts/jsconfig.json
+/kubejs/server_scripts/jsconfig.json
+/kubejs/startup_scripts/jsconfig.json
+/kubejs/config/**
