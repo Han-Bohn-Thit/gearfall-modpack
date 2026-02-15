@@ -28,11 +28,6 @@
 					type: "item"
 				}
 				{
-					id: "03868E8E990D22D0"
-					item: { count: 1, id: "kubejs:galena_lava_key" }
-					type: "item"
-				}
-				{
 					id: "22C5A3941E65BDFA"
 					item: { count: 1, id: "kubejs:lignite_lava_key" }
 					type: "item"

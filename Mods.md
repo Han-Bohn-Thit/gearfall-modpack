@@ -1,3 +1,5 @@
+## Content
+
 ### Technology Mods (core of Gearfall) [3]
 
 | Mods | Purpose |
@@ -5,6 +7,8 @@
 | [Create Mod](https://www.curseforge.com/minecraft/mc-mods/create) | Do I need to say anything? |
 | [Create Mechanical Extruder](https://www.curseforge.com/minecraft/mc-mods/create-mechanical-extruder) | A performance friendly alternative to world interaction recipes like cobble gen, etc. |
 | [Create: The Factory Must Grow](https://www.curseforge.com/minecraft/mc-mods/create-industry) | Makes create a bit harder, and is core part of Gearfall |
+
+## Visuals and QOL
 
 ### QOL Mods [4]
 
@@ -14,6 +18,16 @@
 | [EMI](https://www.curseforge.com/minecraft/mc-mods/emi) | JEI with better UI |
 | [EMI++](https://www.curseforge.com/minecraft/mc-mods/emi-plus-plus) | Creative Mode Tabs, Collapsible Item Groups, Villager Trades |
 | [Jade 🔍](https://www.curseforge.com/minecraft/mc-mods/jade) | Shows info about the block at which the player is looking |
+
+### Visual mods and resource packs [2]
+
+| Mods | Purpose |
+|---|---|
+| [Blur+](https://www.curseforge.com/minecraft/mc-mods/blur-fabric) | Blurs the rest of the game when a gui is open |
+| Resource Packs | Purpose |
+| [Motschen's Better Leaves](https://www.curseforge.com/minecraft/texture-packs/motschens-better-leaves) | Bushy leaves without any performance drop! |
+
+## Other
 
 ### Utility Mods [4]
 
@@ -30,9 +44,10 @@
 |---|---|
 | [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium) | The best perofrmance mod (for 1.21.1 Neo, cause Vulkan also exists but for Fabric :/ ) |
 | [Entity Culling](https://www.curseforge.com/minecraft/mc-mods/entityculling) | Multithreaded Path-Tracing, Multithreaded Path-Tracing, Entity Tick Optimization |
+| [Cull Leaves](https://www.curseforge.com/minecraft/mc-mods/cull-leaves) | Ensures no performance drops for bushy leaves :) |
 | [FTB Quests Optimizer](https://www.curseforge.com/minecraft/mc-mods/ftb-quests-optimizer) | Improves performance of FTB Quests |
 
-### Library Mods [8]
+### Library Mods [9]
 
 | Mods | Required by |
 |---|---|
@@ -44,5 +59,6 @@
 | [Jade Addons](https://www.curseforge.com/minecraft/mc-mods/jade-addons) | Compaitability of Jade with other mods |
 | [KubeJS Create](https://www.curseforge.com/minecraft/mc-mods/kubejs-create) | Compaitability of KubeJS with Create Mod |
 | [Kotlin for Forge](https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge) | EMI++ |
+| [MidnightLib](https://www.curseforge.com/minecraft/mc-mods/midnightlib) | Blur+ |
 
 - Honourable mention to [ProbeJS](https://www.curseforge.com/minecraft/mc-mods/probejs) for making modpack development easier

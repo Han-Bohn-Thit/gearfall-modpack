@@ -1,6 +1,12 @@
 //Materials to generate Lava Keys and Vent Blocks for
 const materials = ['Asurine','Bauxite','Crimsite','Lignite','Ochrum','Veridium'];
 
+const ventStates = [
+  ['dormant','Dormant',0.1,0.8,'gearfall:dormant_vents'],
+  ['active','Active',0.5,0.7,'gearfall:active_vents'],
+  ['unlocked','Unlocked',1.0,0.6,'gearfall:unlocked_vents']
+];
+
 //Lava Keys
 StartupEvents.registry('item', event => {  
   materials.forEach(material => {
@@ -18,24 +24,19 @@ StartupEvents.registry('item', event => {
 //Vent Blocks
 StartupEvents.registry('block', event => {
   materials.forEach(material => {
-    event.create(`dormant_${material.toLowerCase()}_vent`)
-      .displayName(`Dormant ${material} Vent`)
-      .stoneSoundType()
-      .opaque(true)
-      .fullBlock(true)
-      .tagItem('gearfall:dormant_vents');
-    event.create(`active_${material.toLowerCase()}_vent`)
-      .displayName(`Active ${material} Vent`)
-      .stoneSoundType()
-      .opaque(true)
-      .fullBlock(true)
-      .tagItem('gearfall:active_vents');
-    event.create(`unlocked_${material.toLowerCase()}_vent`)
-      .displayName(`Unlocked ${material} Vent`)
-      .stoneSoundType()
-      .opaque(true)
-      .fullBlock(true)
-      .tagItem('gearfall:unlocked_vents');
+    ventStates.forEach(([state, displayState, lightLevel, slipperiness, tag]) => {
+      event.create(`${state}_${material.toLowerCase()}_vent`)
+        .displayName(`${displayState} ${material} Vent`)
+        .stoneSoundType()
+        .opaque(true)
+        .fullBlock(true)
+        .lightLevel(lightLevel)
+        .slipperiness(slipperiness)
+        .noValidSpawns(true)
+        .tagItem(tag)
+        .hardness(45)
+        .noDrops();
+    });
     event.create(`impure_${material.toLowerCase()}`)
       .displayName(`Impure ${material}`)
       .stoneSoundType()

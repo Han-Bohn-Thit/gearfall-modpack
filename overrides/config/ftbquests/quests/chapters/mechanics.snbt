@@ -18,6 +18,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["01DA5A95E9715382"]
 			id: "6A5656272478602E"
 			tasks: [{
 				id: "1C2CCD2DE5DC18AB"
@@ -28,6 +29,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["6A5656272478602E"]
 			id: "7D9547872D0E31B3"
 			invisible: true
 			tasks: [{
