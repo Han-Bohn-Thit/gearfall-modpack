@@ -1,6 +1,0 @@
-{
-  "type": "neoforge:add_features",
-  "biomes": "#gearfall:biomes/jungle",
-  "features": "gearfall:veridium",
-  "step": "underground_ores"
-}

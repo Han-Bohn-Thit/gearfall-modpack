@@ -7,6 +7,7 @@
 | [Create Mod](https://www.curseforge.com/minecraft/mc-mods/create) | Do I need to say anything? |
 | [Create Mechanical Extruder](https://www.curseforge.com/minecraft/mc-mods/create-mechanical-extruder) | A performance friendly alternative to world interaction recipes like cobble gen, etc. |
 | [Create: The Factory Must Grow](https://www.curseforge.com/minecraft/mc-mods/create-industry) | Makes create a bit harder, and is core part of Gearfall |
+| [Create: Dreams n' Desires](https://www.curseforge.com/minecraft/mc-mods/create-dreams-desires) | Add random QoL, items, & blocks features, and bulk freezing, sanding, dragon breething and seething |
 
 ## Visuals and QOL
 
@@ -14,6 +15,8 @@
 
 | Mods | Purpose |
 |---|---|
+| [AppleSkin](https://www.curseforge.com/minecraft/mc-mods/appleskin) | Adds more features to player food bar |
+| [Mouse Tweaks](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks) | Adds a few mouse shortcuts, which should actually be in the base game :/ |
 | [Just Enough Items](https://www.curseforge.com/minecraft/mc-mods/jei) | A prety good recipe viewer (only exists for mod compaitability with EMI) |
 | [EMI](https://www.curseforge.com/minecraft/mc-mods/emi) | JEI with better UI |
 | [EMI++](https://www.curseforge.com/minecraft/mc-mods/emi-plus-plus) | Creative Mode Tabs, Collapsible Item Groups, Villager Trades |
@@ -34,6 +37,7 @@
 | Mods | Purpose |
 |---|---|
 | [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) | Tell me 1 good modpack made without this mod |
+| [Molten Vents Worldgen](https://www.curseforge.com/minecraft/mc-mods/molten-vents-worldgen) | Adds vent feature from molten vents |
 | [FTB Quests](https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge) | Well, Quests!! |
 | [FTB Filter System](https://www.curseforge.com/minecraft/mc-mods/ftb-filter-system) | Adds a tag filter system for FTB Quests |
 | [FTB Teams](https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge) | Ability to create player teams for FTB Quests |

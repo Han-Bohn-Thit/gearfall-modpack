@@ -1,6 +1,0 @@
-{
-  "type": "neoforge:add_features",
-  "biomes": "#gearfall:biomes/mountain",
-  "features": "gearfall:bauxite",
-  "step": "underground_ores"
-}

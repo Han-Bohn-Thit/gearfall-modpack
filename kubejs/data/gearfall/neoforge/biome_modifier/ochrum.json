@@ -1,6 +1,0 @@
-{
-  "type": "neoforge:add_features",
-  "biomes": "#gearfall:biomes/hot",
-  "features": "gearfall:ochrum",
-  "step": "underground_ores"
-}

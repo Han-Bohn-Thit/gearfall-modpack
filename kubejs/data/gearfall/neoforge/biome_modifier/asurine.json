@@ -1,6 +1,0 @@
-{
-  "type": "neoforge:add_features",
-  "biomes": "#gearfall:biomes/cold",
-  "features": "gearfall:asurine",
-  "step": "underground_ores"
-}
