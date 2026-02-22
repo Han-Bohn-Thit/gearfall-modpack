@@ -7,7 +7,8 @@
 | [Create Mod](https://www.curseforge.com/minecraft/mc-mods/create) | Do I need to say anything? |
 | [Create Mechanical Extruder](https://www.curseforge.com/minecraft/mc-mods/create-mechanical-extruder) | A performance friendly alternative to world interaction recipes like cobble gen, etc. |
 | [Create: The Factory Must Grow](https://www.curseforge.com/minecraft/mc-mods/create-industry) | Makes create a bit harder, and is core part of Gearfall |
-| [Create: Dreams n' Desires](https://www.curseforge.com/minecraft/mc-mods/create-dreams-desires) | Add random QoL, items, & blocks features, and bulk freezing, sanding, dragon breething and seething |
+| [Create: Northstar - Redux](https://www.curseforge.com/minecraft/mc-mods/northstar-redux) | Space exploration! |
+| [Chemica](https://www.curseforge.com/minecraft/mc-mods/chemica) | TFMG addon that adds real world chemistry |
 
 ## Visuals and QOL
 
@@ -49,7 +50,9 @@
 | [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium) | The best perofrmance mod (for 1.21.1 Neo, cause Vulkan also exists but for Fabric :/ ) |
 | [Entity Culling](https://www.curseforge.com/minecraft/mc-mods/entityculling) | Multithreaded Path-Tracing, Multithreaded Path-Tracing, Entity Tick Optimization |
 | [Cull Leaves](https://www.curseforge.com/minecraft/mc-mods/cull-leaves) | Ensures no performance drops for bushy leaves :) |
+| [Dynamic FPS](https://www.curseforge.com/minecraft/mc-mods/dynamic-fps) | Reduce resource usage while Minecraft is in the background, idle, or on battery |
 | [FTB Quests Optimizer](https://www.curseforge.com/minecraft/mc-mods/ftb-quests-optimizer) | Improves performance of FTB Quests |
+| [Lithium](https://www.curseforge.com/minecraft/mc-mods/dynamic-fps) | Improves a number of systems (game physics, mob AI, block ticking, etc) without changing any behavior |
 
 ### Library Mods [9]
 
@@ -64,5 +67,6 @@
 | [KubeJS Create](https://www.curseforge.com/minecraft/mc-mods/kubejs-create) | Compaitability of KubeJS with Create Mod |
 | [Kotlin for Forge](https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge) | EMI++ |
 | [MidnightLib](https://www.curseforge.com/minecraft/mc-mods/midnightlib) | Blur+ |
+| [GeckoLib](https://www.curseforge.com/minecraft/mc-mods/geckolib) | Create: Northstar - Redux |
 
 - Honourable mention to [ProbeJS](https://www.curseforge.com/minecraft/mc-mods/probejs) for making modpack development easier
