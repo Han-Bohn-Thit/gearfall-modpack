@@ -87,7 +87,7 @@ ItemEvents.modifyTooltips(event => {
         ["chemica:phosphorus_dust","P₄","Nonmetal"],
         ["chemica:quartz_dust","SiO₂","Silicate Mineral"],
         ["chemica:rutile_dust","TiO₂","Oxide Mineral"],
-        ["chemica:salt_dust","NaCl","Inorganic Salt"],
+        ["chemica:salt","NaCl","Inorganic Salt"],
         ["chemica:soda_ash","Na₂CO₃","Inorganic Salt"],
         ["chemica:sodium_bisulfate_dust","NaHSO₄","Inorganic Salt"],
         ["chemica:sodium_persulfate_dust","Na₂S₂O₈","Inorganic Salt"],
