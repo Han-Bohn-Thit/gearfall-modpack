@@ -1,0 +1,60 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hard"
+	group: "4B02E25C49434376"
+	hide_text_until_complete: true
+	id: "0B1FC6C70E8DA81A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3FBAE2BB5F26AFDF"]
+			id: "2C11A2FD7D162DEB"
+			tasks: [
+				{
+					id: "1680372B8B4A621B"
+					item: { count: 1, id: "kubejs:asurine_lava_key" }
+					type: "item"
+				}
+				{
+					id: "01A0DF2DA1A9D375"
+					item: { count: 1, id: "kubejs:bauxite_lava_key" }
+					type: "item"
+				}
+				{
+					id: "56CD17436C49BFAB"
+					item: { count: 1, id: "kubejs:crimsite_lava_key" }
+					type: "item"
+				}
+				{
+					id: "22C5A3941E65BDFA"
+					item: { count: 1, id: "kubejs:lignite_lava_key" }
+					type: "item"
+				}
+				{
+					id: "5DB8B0503EB99A3D"
+					item: { count: 1, id: "kubejs:ochrum_lava_key" }
+					type: "item"
+				}
+				{
+					id: "46E6BA9C650B32C0"
+					item: { count: 1, id: "kubejs:veridium_lava_key" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "3FBAE2BB5F26AFDF"
+			invisible: true
+			tasks: [{
+				id: "565AA67204993040"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+	]
+}

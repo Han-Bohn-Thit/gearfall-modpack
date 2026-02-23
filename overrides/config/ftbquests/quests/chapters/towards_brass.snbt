@@ -1,0 +1,24 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "towards_brass"
+	group: "597304061B9A21AD"
+	hide_text_until_complete: true
+	id: "18847CBE099941F9"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "38286F4EA7DD3DFA"
+		invisible: true
+		tasks: [{
+			biome: "#minecraft:is_nether"
+			icon: {
+				id: "minecraft:netherrack"
+			}
+			id: "7B28B1DADD06D039"
+			type: "biome"
+		}]
+		x: -2.5d
+		y: -1.0d
+	}]
+}

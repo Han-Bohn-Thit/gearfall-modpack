@@ -1,0 +1,44 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mechanics"
+	group: "020EA5DF267EC951"
+	id: "6EFDAC403962B847"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "01DA5A95E9715382"
+			tasks: [{
+				id: "2D01CE61D6E3C7AC"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["01DA5A95E9715382"]
+			id: "6A5656272478602E"
+			tasks: [{
+				id: "1C2CCD2DE5DC18AB"
+				item: { count: 1, id: "create:mechanical_press" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6A5656272478602E"]
+			id: "7D9547872D0E31B3"
+			invisible: true
+			tasks: [{
+				id: "712292120AF3CDD0"
+				item: { count: 1, id: "create:mechanical_drill" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+	]
+}

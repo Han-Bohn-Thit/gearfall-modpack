@@ -1,0 +1,189 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ores_automated"
+	group: "597304061B9A21AD"
+	hide_text_until_complete: true
+	id: "5C12CE9CEF61E98F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3A002A6755F5FBBC"]
+			id: "121D83EE563D83FA"
+			rewards: [{
+				id: "0762DD16E7D5D4B5"
+				item: {
+					count: 1
+					id: "kubejs:asurine_lava_key"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "2861BCD55FCD30F2"
+				item: { count: 1, id: "create:asurine" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:snow_block"
+			}
+			id: "3A002A6755F5FBBC"
+			invisible: true
+			tasks: [{
+				biome: "#gearfall:biomes/cold"
+				id: "76C6D1115C3D3ED5"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			id: "08524EAB9BAD3771"
+			invisible: true
+			tasks: [{
+				biome: "#gearfall:biomes/mountain"
+				icon: {
+					id: "minecraft:stone"
+				}
+				id: "00B96D2DB05A3112"
+				type: "biome"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7D9547872D0E31B3"]
+			id: "204D32D575D863C3"
+			rewards: [{
+				id: "772E178446E116D2"
+				item: {
+					count: 1
+					id: "kubejs:lignite_lava_key"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "4507323376CF5D65"
+				item: { count: 1, id: "tfmg:lignite" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			id: "0963AF30D59BCB36"
+			invisible: true
+			tasks: [{
+				biome: "#gearfall:biomes/hot"
+				icon: {
+					id: "minecraft:sand"
+				}
+				id: "6F9A3BAE8BA9539B"
+				type: "biome"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			id: "6D04D7CF12606C27"
+			invisible: true
+			tasks: [{
+				biome: "#gearfall:biomes/jungle"
+				icon: {
+					id: "minecraft:jungle_leaves"
+				}
+				id: "5668C0F19DC45AC2"
+				type: "biome"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["38286F4EA7DD3DFA"]
+			id: "589B2C06B30E49CC"
+			invisible: true
+			rewards: [{
+				id: "7F45D755AF5BA0A4"
+				item: {
+					count: 1
+					id: "kubejs:crimsite_lava_key"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "44D6C48D84E205F5"
+				item: { count: 1, id: "create:crimsite" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["08524EAB9BAD3771"]
+			id: "65AB155DECCC7082"
+			rewards: [{
+				id: "3533BF2B9AF021ED"
+				item: {
+					count: 1
+					id: "kubejs:bauxite_lava_key"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "399DC0BDD6861C5E"
+				item: { count: 1, id: "tfmg:bauxite" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0963AF30D59BCB36"]
+			id: "2023CD3564C3EE86"
+			rewards: [{
+				id: "27C3722DCAC4A447"
+				item: {
+					count: 1
+					id: "kubejs:ochrum_lava_key"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "2BF5051103E404CC"
+				item: { count: 1, id: "create:ochrum" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6D04D7CF12606C27"]
+			id: "1CC7D8C287F045B4"
+			rewards: [{
+				id: "78CE13A0C96CCB1F"
+				item: {
+					count: 1
+					id: "kubejs:veridium_lava_key"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "3ED0872065B24BE3"
+				item: { count: 1, id: "create:veridium" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+	]
+}

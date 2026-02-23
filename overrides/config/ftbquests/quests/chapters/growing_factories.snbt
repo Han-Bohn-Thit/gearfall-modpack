@@ -1,0 +1,223 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "growing_factories"
+	group: "597304061B9A21AD"
+	id: "2FAF518399FA8FAB"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon_scale: 0.8d
+			id: "7A2CACFB8DC43E10"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				count: 64L
+				id: "101BE680731B1BB6"
+				item: { count: 1, id: "tfmg:cast_iron_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A2CACFB8DC43E10"]
+			id: "677408A6032D3676"
+			tasks: [{
+				count: 9L
+				id: "3C0E8FF6B82EE60A"
+				item: { count: 1, id: "tfmg:coke_oven" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["677408A6032D3676"]
+			id: "37CB0B193FD62D9C"
+			tasks: [{
+				id: "65338FD07AF18B1B"
+				item: { count: 1, id: "tfmg:creosote_bucket" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37CB0B193FD62D9C"]
+			id: "1BC0B3709BAF219F"
+			tasks: [{
+				count: 8L
+				id: "40368A01C8AEE255"
+				item: { count: 1, id: "tfmg:coal_coke" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["677408A6032D3676"]
+			id: "3DF86CF7EE92BC4A"
+			tasks: [{
+				id: "771AF988D9F422EA"
+				item: { count: 1, id: "tfmg:exhaust" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"37CB0B193FD62D9C"
+				"3348966A273DBBD1"
+			]
+			id: "29DC80801F42DB39"
+			tasks: [{
+				count: 2L
+				id: "4B6AE65790905380"
+				item: { count: 1, id: "tfmg:blast_stove" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3348966A273DBBD1"]
+			id: "164A91534A8C5EA6"
+			tasks: [{
+				id: "1BBB7383D178F090"
+				item: { count: 1, id: "tfmg:cast_iron_chemical_vat" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["29DC80801F42DB39"]
+			id: "0491554098189EEB"
+			tasks: [{
+				count: 2L
+				id: "08670769D751BB91"
+				item: { count: 1, id: "tfmg:blast_furnace_hatch" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1BC0B3709BAF219F"]
+			id: "20C7922C535D12B2"
+			tasks: [{
+				count: 4L
+				id: "4B39B69AF54543F8"
+				item: { count: 1, id: "tfmg:coal_coke_dust" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"20C7922C535D12B2"
+				"0491554098189EEB"
+				"5F63DDB916B3BD8E"
+			]
+			id: "24037994ED4727B0"
+			tasks: [{
+				count: 16L
+				id: "091A23E1C883D926"
+				item: { count: 1, id: "tfmg:steel_ingot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7A2CACFB8DC43E10"]
+			id: "3348966A273DBBD1"
+			tasks: [{
+				id: "6CD4738F91CDD3F2"
+				item: { count: 1, id: "tfmg:cast_iron_fluid_tank" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7A2CACFB8DC43E10"]
+			id: "5F63DDB916B3BD8E"
+			tasks: [{
+				id: "38F2C5B7307A93CC"
+				item: { count: 1, id: "tfmg:casting_basin" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["24037994ED4727B0"]
+			id: "7A2541CA2DDC8334"
+			optional: true
+			tasks: [{
+				count: 4L
+				id: "578AAB5BFAB851C9"
+				item: { count: 1, id: "tfmg:blast_furnace_reinforcement" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["37CB0B193FD62D9C"]
+			id: "3A070973A15E1720"
+			tasks: [{
+				count: 4L
+				id: "28E5F65DE6212307"
+				item: { count: 1, id: "tfmg:hardened_planks" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"24037994ED4727B0"
+				"3A070973A15E1720"
+			]
+			id: "43AA1DC3CD174E6F"
+			tasks: [{
+				count: 4L
+				id: "0B357ABDD615155E"
+				item: { count: 1, id: "tfmg:steel_casing" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["43AA1DC3CD174E6F"]
+			id: "35DC2526D917670A"
+			tasks: [{
+				count: 4L
+				id: "23B306F11966DBFB"
+				item: { count: 1, id: "tfmg:heavy_machinery_casing" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["43AA1DC3CD174E6F"]
+			id: "0392A3D14A01CDE7"
+			tasks: [{
+				count: 4L
+				id: "64C95BEDEF5BE314"
+				item: { count: 1, id: "tfmg:industrial_aluminum_casing" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+	]
+}
