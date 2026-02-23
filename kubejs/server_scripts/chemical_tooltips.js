@@ -90,7 +90,7 @@ ItemEvents.modifyTooltips(event => {
         ["chemica:salt","NaCl","Inorganic Salt"],
         ["chemica:soda_ash","Na₂CO₃","Inorganic Salt"],
         ["chemica:sodium_bisulfate_dust","NaHSO₄","Inorganic Salt"],
-        ["chemica:sodium_persulfate_dust","Na₂S₂O₈","Inorganic Salt"],
+        ["chemica:sodium_persulfate","Na₂S₂O₈","Inorganic Salt"],
         // TFGM chemicals
         ["tfmg:ethylene_bucket", "C₂H₄", "Aliphatic Alkene"],
         ["tfmg:lpg_bucket", "C₃H₈ + C₄H₁₀", "Alkane Mixture"],
