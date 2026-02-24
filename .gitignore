@@ -26,3 +26,4 @@ shaderpacks/**
 /kubejs/server_scripts/jsconfig.json
 /kubejs/startup_scripts/jsconfig.json
 /kubejs/config/**
+debug/**
