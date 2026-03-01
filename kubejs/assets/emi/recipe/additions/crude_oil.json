@@ -1,6 +1,6 @@
 {
     "type": "emi:world_interaction",
     "left": "item:tfmg:pumpjack_base",
-    "right": "item:tfmg:industrial_pipe",
+    "right": "item:tfmg:industrial_pipe{lore: ['{text:\"Other pipes won\\'t work!\", color: \"green\", italic: false}']}",
     "output": "fluid:tfmg:crude_oil"
 }

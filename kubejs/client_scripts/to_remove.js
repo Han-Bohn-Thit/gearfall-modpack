@@ -1,17 +1,14 @@
+//Removed items and fluids from the recipe viewer. This does not remove them from the game, just hides them from the recipe viewer.
 RecipeViewerEvents.removeEntriesCompletely('fluid', event => {
   global.fluidsToRemove.forEach(id => {
     event.remove(id)
   })
 })
-
 RecipeViewerEvents.removeEntriesCompletely('item', event => {
   global.itemsToRemove.forEach(id => {
     event.remove(id)
   })
-})
-
-//Change display name
-ClientEvents.lang('en_us', event => {
-    event.renameItem('northstar:circuit', 'Pulse Circuit');
-    event.renameItem('northstar:advanced_circuit', 'Advanced Pulse Circuit');
+  global.itemsToReplace.forEach(item => {
+    event.remove(item.old)
+  })
 })

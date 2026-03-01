@@ -1,0 +1,12 @@
+{
+  "replace": true,
+  "values": [
+    "chemica:molten_glass",
+    "chemica:molten_nylon",
+    "chemica:molten_titanium",
+    "chemica:molten_tungsten_carbide",
+    "tfmg:molten_steel",
+    "tfmg:molten_slag",
+    "tfmg:molten_plastic"
+  ]
+}
