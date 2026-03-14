@@ -1,0 +1,56 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " C SC ",
+    "SCcCBI",
+    " CPE_I",
+    "SCcCBI",
+    " C SC "
+  ],
+  "key": {
+    "C": [
+      {
+        "item": "create:copper_casing"
+      }
+    ],
+    "c": [
+      {
+        "item": "minecraft:copper_ingot"
+      }
+    ],
+    "E": [
+      {
+        "item": "immersive_aircraft:engine"
+      }
+    ],
+    "B": [
+      {
+        "item": "immersive_aircraft:biplane"
+      }
+    ],
+    "P": [
+      {
+        "item": "immersive_aircraft:propeller"
+      }
+    ],
+    "S": [
+      {
+        "item": "immersive_aircraft:sail"
+      }
+    ],
+    "I": [
+      {
+        "item": "create:industrial_iron_window"
+      }
+    ],
+    "_": [
+      {
+        "tag": "create:seats"
+      }
+    ]
+  },
+  "result": {
+    "id": "immersive_aircraft:bamboo_hopper"
+  },
+  "accept_mirrored": true
+}

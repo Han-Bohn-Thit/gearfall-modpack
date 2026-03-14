@@ -1,0 +1,71 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " SSSSSS",
+    "SSIIIEP",
+    " ~~ ~~ ",
+    "i_CGHEP",
+    "cHHHH  "
+  ],
+  "key": {
+    "H": [
+      {
+        "item": "immersive_aircraft:hull_reinforcement"
+      }
+    ],
+    "I": [
+      {
+        "item": "create:industrial_iron_block"
+      }
+    ],
+    "i": [
+      {
+        "item": "create:industrial_iron_window"
+      }
+    ],
+    "C": [
+      {
+        "item": "immersive_aircraft:cargo_airship"
+      }
+    ],
+    "c": [
+      {
+        "item": "immersive_aircraft:heavy_crossbow"
+      }
+    ],
+    "G": [
+      {
+        "item": "immersive_aircraft:industrial_gears"
+      }
+    ],
+    "E": [
+      {
+        "item": "immersive_aircraft:engine"
+      }
+    ],
+    "P": [
+      {
+        "item": "immersive_aircraft:propeller"
+      }
+    ],
+    "S": [
+      {
+        "item": "immersive_aircraft:sail"
+      }
+    ],
+    "~": [
+      {
+        "item": "minecraft:string"
+      }
+    ],
+    "_": [
+      {
+        "tag": "create:seats"
+      }
+    ]
+  },
+  "result": {
+    "id": "immersive_aircraft:warship"
+  },
+  "accept_mirrored": true
+}

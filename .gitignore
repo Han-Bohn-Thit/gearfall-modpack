@@ -27,3 +27,4 @@ shaderpacks/**
 /kubejs/startup_scripts/jsconfig.json
 /kubejs/config/**
 debug/**
+fancymenu_data/**

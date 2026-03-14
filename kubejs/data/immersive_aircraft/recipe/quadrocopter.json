@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PAP",
+    " S ",
+    "PEP"
+  ],
+  "key": {
+    "E": [
+      {
+        "item": "immersive_aircraft:boiler"
+      }
+    ],
+    "A": [
+      {
+        "item": "immersive_aircraft:hull"
+      }
+    ],
+    "S": [
+      {
+        "item": "minecraft:string"
+      }
+    ],
+    "P": [
+      {
+        "item": "create:propeller"
+      }
+    ]
+  },
+  "result": {
+    "id": "immersive_aircraft:quadrocopter"
+  }
+}
